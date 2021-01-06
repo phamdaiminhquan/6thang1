@@ -1,1 +1,6 @@
 day la nhanh 1, day la cac chuc năng của nhánh 1.
+Blocker: Lỗi này là các lỗi có sự dây chuyền phức tạp với các chức năng khác. Khi bạn tìm ra lỗi này mà hắn đang ngăn chặn bạn tiếp tục test những testcase phía dưới hãy để vào danh mục blocker. Blocker bug có thể là lỗi từ server, từ các thiết bị phục vụ cho việc vận hành phần mềm, hay là các chức năng có tính liên kết tới nhau
+Critical: Là các lỗi hay defect có thể làm dừng hoản toàn chương trình hay hệ thống, hay là lỗ hổng về bảo mật làm mất dữ liệu của khách hàng, hoặc có thể là chức năng chính của phần mềm không thể nào hoạt động. Với những loại defect như vậy ta sẽ để là Critical.
+Major: Các lỗi này cũng là những lỗi làm chương trình hay các chức năng bị ngừng hoạt động, tuy nhiên vẫn có cách để thay thế và chấp nhận được. Khi đó chúng ta sẽ đặt mức độ ưu tiên ở Major.
+Moderate: Các defect không làm chương trình bị ngừng hoạt động nhưng kết quả trả lại không chính xác, không đầy đủ so với kết quả mong đợi, đây sẽ là mức độ mà bạn muốn đặt các bug đó vào.
+Minor: Các defect này thường là các lỗi về giao diện, nó không cho chúng ta kết quả như thiết kế nhưng có thể sửa dễ dàng.
